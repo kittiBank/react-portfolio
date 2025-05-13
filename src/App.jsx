@@ -5,10 +5,19 @@
 
 //Components
 import Header from "./components/Header";
+import Aboutme from "./components/Aboutme";
 
 const App = () => {
 
-  return <Header />
+  return (
+    <>
+      <Header />
+      <main>
+        <Aboutme />
+      </main>
+    </>
+  )
+
 }
 
 export default App
